@@ -67,7 +67,7 @@ function ChatRoom() {
             </main>
             <form onSubmit={sendMessage} className="w-full flex justify-center border-2 border-black rounded-3xl ">
                 <input
-                    className="h-8 p-2 w-full focus:outline-none bg-red-500 rounded-bl-2xl rounded-tl-2xl"
+                    className="h-8 p-2 w-full focus:outline-none rounded-bl-2xl rounded-tl-2xl"
                     value={formValue}
                     onChange={e => setFormValue(e.target.value)}
                 />
